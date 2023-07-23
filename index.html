@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>IROS 2023 Workshop on Integrated Perception, Planning, and Control for Physically and Contextually-Aware Robot Autonomy</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+    <meta name="keywords" content="robots, workshop, IROS, International Conference on Intelligent Robots and Systems">
+    <meta name="author" content="Omur Arslan, Nikolay Atanasov, Mehmet Dogar, H. Jin Kim, Rafael Papallas">
+	<link rel="shortcut icon" href="favicon.ico"> 
+	
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600,700,800|Roboto:300,400,700&display=swap" rel="stylesheet">
+	
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+</head> 
+
+<body>    
+	<header id="header" class="header fixed-top">	    
+		<div class="branding">
+			<div class="container-fluid">
+				<nav class="main-nav navbar navbar-expand-lg">
+					<div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="assets/images/logo-white.svg" alt="logo"></a></div>    
+					
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
+						<ul class="nav navbar-nav">
+							
+							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>                                              
+							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#calls-section">Calls</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#awards-section">Awards/Sponsors</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#organisers-section">Organisers</a></li>
+						</ul><!--//nav-->
+					</div><!--//navabr-collapse-->
+
+				</nav><!--//main-nav-->
+				
+			</div><!--//container-->
+		</div><!--//branding-->
+	</header><!--//header-->
+	
+	<div id="hero-block" class="hero-block">
+		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item-1 carousel-item active">
+				</div>
+			</div>
+		</div>
+		<div class="hero-block-mask"></div>
+		<div class="container">
+			<div class="hero-text-block">
+				<h1 class="hero-heading mb-2">IROS 2023 IPPC Workshop</h1>
+				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>1st Oct 2023 <i class="fas fa-map-marker-alt mx-2"></i>IROS in Detroit, USA</div>
+				<div class="hero-intro mb-4">Workshop on Integrated Perception, Planning, and Control for Physically and Contextually-Aware Robot Autonomy</div>
+			</div><!--//hero-text-block-->
+		</div><!--//container-->
+
+	</div><!--//hero-block-->
+	
+	<section id="about-section" class="about-section section theme-bg-light">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">About the workshop</h3>
+			<div class="section-intro single-col-max mx-auto mb-4">
+                <p>
+                Robots capable of autonomous navigation and manipulation with advanced perception and decision-making skills offer
+                tremendous potential to assist people with challenging and repetitive tasks in the service industry, including
+                transportation, logistics, and healthcare.
+                </p>
+
+                <p>Recent advances in artificial perception enable robots to have semantic
+                understanding and contextual awareness of their surroundings. Similarly, recent years have seen significant progress in
+                decision-making for autonomous navigation and manipulation in complex situations. However, the gap between robot
+                perception and decision-making remains large, as many techniques continue to rely on separation principles between
+                perception, planning, and control. The objective of this workshop is to inspire the robotics community to pursue
+                techniques that tightly <b>integrate perception, planning, and control</b> to achieve <b>physically and contextually
+                safe robot navigation and manipulation</b> in real human environments.
+                </p>
+
+                <p>
+                Robots sharing the same environment with
+                people need novel semantic planning objectives that integrate perception and planning at a high level to generate
+                contextually relevant robot behavior. At a low level, integrated perception and control require new metric and
+                contextual safety constraints to enable physically safe and socially-aware robot behavior. Uncertainty and error
+                quantification in learning-based perception and control is essential for safe and robust robot operation. 
+                </p>
+
+                <p>
+                This workshop
+                will bring together experts from academia and industry to identify and discuss the current challenges and emerging
+                opportunities in perception-aware robot navigation and manipulation, leading to <b>robot perception techniques that
+                    actively plan observations and interactions to acquire informative data</b> and <b>robot planning and control
+                    techniques that actively utilize geometric and semantic perceptual information in generating, executing, and
+                    adapting robot actions</b>.
+                </p>
+            </div>
+
+			<div class="benefits-list text-center mb-3">
+				<h4 class="text-center mb-4">Topics of interest</h4>
+				<ul class="list-unstyled text-start d-inline-block">
+					<li><i class="fas fa-check-circle me-2"></i>Integrated Perception, Planning, and Control</li>
+					<li><i class="fas fa-check-circle me-2"></i>Perception-Aware Motion Planning and Control</li>
+					<li><i class="fas fa-check-circle me-2"></i>Active and Interactive Perception</li>
+					<li><i class="fas fa-check-circle me-2"></i>Semantic Perception and Semantic Planning</li>
+					<li><i class="fas fa-check-circle me-2"></i>Contextual Risk and Safety Assessment of Perception, Planning, and Control</li>
+					<li><i class="fas fa-check-circle me-2"></i>Uncertainty-Aware Planning and Control</li>
+					<li><i class="fas fa-check-circle me-2"></i>Uncertainty and Error Quantification in Metric and Semantic Perception</li>
+					<li><i class="fas fa-check-circle me-2"></i>Uncertainty and Error Quantification in Robot Skill Learning</li>
+					<li><i class="fas fa-check-circle me-2"></i>Integrated Perception, Planning, Control for Safe Human-Robot Interaction</li>
+					<li><i class="fas fa-check-circle me-2"></i>Egocentric and Allocentric Motion Prediction for Physical and Contextual Safety</li>
+					<li><i class="fas fa-check-circle me-2"></i>Perception for Task and Motion Planning</li>
+					<li><i class="fas fa-check-circle me-2"></i>Affordance-based Planning and Control</li>
+				</ul>
+                <div class="col-xs-12" style="height:50px;"></div>
+			</div><!--//benefits-list-->
+		</div><!--//container-->
+	</section><!--//about-section-->
+	
+	<section id="speakers-section" class="speakers-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Invited Speakers</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">We are thrilled to have the following invited speakers presenting at the workshop.</div>
+			<div class="row">
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/kostas.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Konstantinos Alexis</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Norwegian University of Science and Technology</div>
+							</div><!--//card-text-->
+							<a href="http://www.kostasalexis.com" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/efi.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Efi Psomopoulou</h5>
+							<div class="card-text mb-3">
+								<div class="meta">University of Bristol</div>
+							</div><!--//card-text-->
+							<a href="https://efipsom.github.io" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/georgia.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Georgia Chalvatzaki</h5>
+							<div class="card-text mb-3">
+								<div class="meta">TU Darmstadt</div>
+							</div><!--//card-text-->
+							<a href="https://irosalab.com/people/georgia-chalvatzaki/" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/changhyun.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Changhyun Choi</h5>
+							<div class="card-text mb-3">
+								<div class="meta">University of Minnesota</div>
+							</div><!--//card-text-->
+							<a href="https://cse.umn.edu/ece/changhyun-choi" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/karol.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Karol Hausman</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Google Brain, Stanford</div>
+							</div><!--//card-text-->
+							<a href="https://karolhausman.github.io" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/hyeonbeom.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Hyeonbeom Lee</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Kyungpook National University</div>
+							</div><!--//card-text-->
+							<a href="https://knuasl.wixsite.com/asl-lab" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/roberto.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Roberto Martin-Martin</h5>
+							<div class="card-text mb-3">
+								<div class="meta">University of Texas at Austin</div>
+							</div><!--//card-text-->
+							<a href="https://robertomartinmartin.com" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+			</div><!--//row-->
+		</div><!--//container-->
+		
+	</section><!--//speakers-section-->
+	
+	<div class="container">
+		<hr>
+	</div>
+	
+	<section id="schedule-section" class="schedule-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5">Schedule</h3>
+			
+			<!-- Tab panes -->
+			<div class="schedule-tab-content tab-content">
+				<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">08:50 - 09:00</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3"><i class="fa-solid fa-flag-checkered"></i> Opening and welcome</h3>
+                            <div class="col-xs-12" style="height:25px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">09:00 - 09:30</h4>
+							<div class="profile">
+								<a href="http://www.kostasalexis.com" target="_blank"><img class="profile-image rounded-circle mb-2" src="assets/images/speakers/kostas.png" alt=""></a>
+								<div class="name"><a class="theme-link" href="http://www.kostasalexis.com" target="_blank">Konstantinos Alexis</a></div>
+							</div><!--//profile-->
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Multi-modal Perception for Resilient Navigation</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:100px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">09:30 - 10:00</h4>
+							<div class="profile">
+								<a href="https://efipsom.github.io" target="_blank"><img class="profile-image rounded-circle mb-2" src="assets/images/speakers/efi.png" alt=""></a>
+								<div class="name"><a class="theme-link" target="_blank" href="https://efipsom.github.io">Efi Psomopoulou</a></div>
+							</div><!--//profile-->
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Physically Interactive Robots</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:100px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">10:00 - 10:30</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Poster Session 1</h3>
+                            <div class="desc">5-8 Selected Poster Presentations on Robot Perception for Navigation and Manipulation</td></div>
+                            <div class="col-xs-12" style="height:10px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">10:30 - 11:00</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3"><i class="fas fa-coffee"></i> Coffee Break</h3>
+                            <div class="col-xs-12" style="height:10px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">11:00 - 11:30</h4>
+							<div class="profile">
+								<a href="" target="_blank"><img class="profile-image rounded-circle mb-2" src="assets/images/speakers/roberto.png" alt=""></a>
+								<div class="name"><a class="theme-link" href="" target="_blank">Roberto Martin-Martin</a></div>
+							</div><!--//profile-->
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Acting to Perceive the World</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:100px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">11:30 - 11:50</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Invited talk by a junior researcher</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:20px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">11:50 - 12:20</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Panel Discussion</h3>
+                            <div class="desc">Robot Perception for Navigation and Manipulation (Tentative Topic)</div>
+                            <div class="col-xs-12" style="height:20px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">12:20 - 13:30</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3"><i class="fa-solid fa-utensils"></i> Lunch Break</h3>
+                            <div class="col-xs-12" style="height:10px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">13:30 - 14:00</h4>
+							<div class="profile">
+								<a href="" target="_blank"><img class="profile-image rounded-circle mb-2" src="assets/images/speakers/changhyun.png" alt=""></a>
+								<div class="name"><a class="theme-link" href="" target="_blank">Changhyun Choi</a></div>
+							</div><!--//profile-->
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Interactive Robotic Object Perception and Manipulation</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:100px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">14:00 - 14:30</h4>
+							<div class="profile">
+								<a href="" target="_blank"><img class="profile-image rounded-circle mb-2" src="assets/images/speakers/karol.png" alt=""></a>
+								<div class="name"><a class="theme-link" href="" target="_blank">Karol Hausman</a></div>
+							</div><!--//profile-->
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Preventing the Next Bitter Lesson</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:100px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">14:30 - 15:00</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Poster Session 2</h3>
+                            <div class="desc">5-8 selected poster presentations on Perception-Aware Robot Navigation and Manipulation</td></div>
+                            <div class="col-xs-12" style="height:10px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">15:00 - 15:30</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3"><i class="fas fa-coffee"></i> Coffee Break</h3>
+                            <div class="col-xs-12" style="height:10px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">15:30 - 16:00</h4>
+							<div class="profile">
+								<a href="" target="_blank"><img class="profile-image rounded-circle mb-2" src="assets/images/speakers/hyeonbeom.png" alt=""></a>
+								<div class="name"><a class="theme-link" href="" target="_blank">Hyeonbeom Lee</a></div>
+							</div><!--//profile-->
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Real-time Monocular Depth Estimation and Obstacle Avoidance for a UAV</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:100px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">16:00 - 16:30</h4>
+							<div class="profile">
+								<a href="" target="_blank"><img class="profile-image rounded-circle mb-2" src="assets/images/speakers/georgia.png" alt=""></a>
+								<div class="name"><a class="theme-link" href="" target="_blank">Georgia Chalvatzaki</a></div>
+							</div><!--//profile-->
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">TBC</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:100px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">16:30 - 16:50</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Invited talk by a junior researcher</h3>
+                            <div class="desc"><b>Abstract:</b> TBC</div>
+                            <div class="col-xs-12" style="height:20px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">16:50 - 17:20</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3">Panel Discussion</h3>
+                            <div class="desc">Perception-Aware Robot Navigation and Manipulation (Tentative Topic)</div>
+                            <div class="col-xs-12" style="height:20px;"></div>
+						</div><!--//content-->
+					</div><!--//item-->
+
+					<div class="item item-talk">
+						<div class="meta">
+							<h4 class="time mb-3">17:20 - 17:30</h4>
+						</div><!--//meta-->
+						<div class="content">
+							<h3 class="title mb-3"><i class="fa-solid fa-flag-checkered"></i> Closing Remarks</h3>
+						</div><!--//content-->
+					</div><!--//item-->
+				</div><!--//tab-1-content-->
+			</div><!--//schedule-tab-content-->
+		</div><!--//container-->
+	</section><!--//schedule-section-->
+	
+	<section id="calls-section" class="about-section section theme-bg-light">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Calls</h3>
+
+			<h4 class="text-center mb-3">Calls for workshop papers</h4>
+			<div class="section-intro single-col-max mx-auto mb-4">
+                <p>
+                    We are inviting paper submissions related to key
+                    challenges in perception, planning, and control for safe robot autonomy in human environments. Topics of interest
+                    include integrated perception, planning, and control; perception-aware motion planning and control; active and
+                    interactive perception; semantic perception and semantic planning; contextual risk and safety assessment of
+                    perception, planning, and control; uncertainty and error quantification in metric-semantic perception; uncertainty
+                    and error quantification in robot skill learning; egocentric and allocentric motion prediction for physical and
+                    contextual safety; perception for task and motion planning; afforance-based planning and control.
+                </p>
+
+                <p>Contributed workshop paper submissions should be no longer than 4 pages (excluding references) and should follow the standard IEEE conference formatting guidelines (<a href="http://ras.papercept.net/conferences/support/support.php">see here</a>). The papers will be reviewed by a Program Committee, assembled from the organizers, the invited speakers, and other experts in the field. The Program Committee will provide at least 2 high-quality reviews per submission.</p>
+
+                <p>Accepted papers will be published on the workshop website and the authors will be invited to present their research during one of the workshop poster sessions. Not only will you have the chance to present your work to a diverse and engaged audience of academics, industry professionals, and fellow researchers but also you will be in the running for the Best Poster Presentation Award! Please stay tuned for the details.</p>
+                
+
+                <b>Important Dates:</b>
+                <ul>
+                    <li><b>Submission deadline</b> Aug 15, 2023</li>
+                    <li><b>Acceptance notification</b> Sep 1, 2023</li>
+                    <li><b>Camera-ready submission</b> Sep 7, 2023</li>
+                </ul>
+
+                <div class="hero-cta"><a class="btn btn-primary btn-lg mb-4 text-center" href="https://cmt3.research.microsoft.com/IPPC2023/Submission/Index" target="_blank">Submit a workshop paper</a></div>
+                <div class="col-xs-12" style="height:50px;"></div>
+            </div>
+
+			<h4 class="text-center mb-3">Calls for invited PhD talks</h4>
+			<div class="section-intro single-col-max mx-auto mb-4">
+                <p>We are inviting junior researchers, who are either close to completing their PhDs or are recent graduates, to share
+                their PhD research work and research vision with the robotics community at our workshop as a 20-min workshop talk.</p>
+
+                <p>
+                    <em>Applicants must have either defended their PhD thesis after October 2020 or must in their 3+ years of PhD
+                        study</em>. Applicants are invited to submit a talk proposal in the form of an extended abstract of up to 4
+                    pages (excluding references) summarizing your PhD research on a <a href="#about-section">topic of interest to the
+                        workshop</a>. 
+                </p>
+
+                <p>The submitted talk proposals will be reviewed by the workshop Program Committee and two of them
+                    will be selected for presentation based on research quality and relevance to the workshop topics. In addition to
+                    presenting, the selected two junior speakers will receive the "Best PhD Talk Award" to recognize the excellence and
+                    impact of their work. Any submitted PhD talk proposal, by default, will also be considered for a poster presentation
+                    (see <a href="#calls-section">call for workshop papers</a> above).
+                </p>
+
+                <b>Important Dates:</b>
+                <ul>
+                    <li><b>Extended abstract deadline:</b> Aug 15, 2023</li>
+                    <li><b>Acceptance notification</b> Sep 1, 2023</li>
+                </ul>
+
+                <div class="hero-cta"><a class="btn btn-primary btn-lg mb-4 text-center" href="https://cmt3.research.microsoft.com/IPPC2023/Submission/Index" target="_blank">Submit extended abstract</a></div>
+                <div class="col-xs-12" style="height:50px;"></div>
+            </div>
+		</div><!--//container-->
+	</section><!--//about-section-->
+
+	<section id="awards-section" class="sponsors-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Sponsors, Funding and Awards</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">
+                Our workshop organizes awards to recognize excellent robotics research on the topics of interest of the workshop, 
+                and it provides financial support to encourage participant diversity (e.g., race, ethnicity, gender, age, 
+                economic status, and other diverse backgrounds) in our workshop. 
+            </div>
+
+			<div class="section-intro single-col-max mx-auto mb-4">
+                <h4> Awards </h4>
+                <p>Excellent research contributions to our workshop will be recognized by two PhD Talk awards and one best poster presentation award.</p>
+
+                <ul>
+                    <li> 
+                        <b>MoMa PhD Talk Award ($1,000):</b> This award will be given to one of the two PhD research talks selected by the program committee 
+                        as a recognition of excellent robotics research on mobile manipulation. The award amount is $1,000 which is generously sponsored 
+                        by IEEE RAS Technical Committee on Mobile Manipulation (MoMa). The award will be presented at the end of the PhD talk during 
+                        the workshop. 
+                     </li>
+
+                    <li>
+                        <b>SNU PhD Talk Award ($1,000):</b> This award will be given to one of the two PhD research talks selected by the program committee as 
+                        a recognition of excellent robotics research on autonomous navigation. The award amount is $1,000 which is generously sponsored 
+                        by  Seoul National University (SNU) Research Center for Advanced Unmanned Vehicles. The award will be presented at the end of 
+                        the PhD talk during the workshop.
+                    </li>
+
+                    <li>
+                        <b>EAISI Best Poster Presentation Award ($1,000):</b> This award will be given to the best poster presentation of selected papers. The 
+                        award amount is $1,000 which is generously sponsored by TU/e  Eindhoven AI Systems Institute (EAISI). The selection will be done 
+                        by an award committee based on the quality of research and presentation and the award will be announced at the end of the workshop.
+                    </li>
+                </ul>
+
+                <h4>Diversity Grants</h4>
+                <p>
+                    Our workshop accepts applications for a diversity grant from all contributing participants. A diversity grant is provided to encourage 
+                    participant diversity (e.g., race, ethnicity, gender, age, economic status, and other diverse backgrounds) in our workshop. A diversity 
+                    grant can be partially used for conference/workshop registration,  accommodation, transportation, visa, etc.</p>
+
+                <p><b>To apply for a diversity grant, 
+                    please submit a short motivation letter (maximum 400 words) with your paper submission for a poster presentation or a PhD Talk.</b>  
+                    Our total budget for diversity grants is $3,000 which is generously supported by SNU and MoMa. This total amount will be shared between 
+                    selected applicants depending on their specific situations (e.g., at two or three levels --- $200, $500, $1,000).</p>
+
+                <p>Application for a diversity grant 
+                    is optional and the grant acceptance decision will depend on the available limited budget, the number of applicants, and the relevance/motivation 
+                    of the applications. We will aim to support as many people as possible to have a very diverse and inclusive research meeting.
+                </p>
+
+            <h4>Sponsors</h4>
+			<div class="section-intro single-col-max mx-auto mb-5">
+                The workshop awards and diversity grants are made 
+                possible thanks to the generous support of our sponsors: 
+                <ul>
+                    <li>IEEE RAS Technical Committee on Mobile Manipulation (MoMa).</li>
+                    <li>Seoul National University (SNU) Research Center for Advanced Unmanned Vehicles.</li>
+                    <li>TU/e  Eindhoven AI Systems Institute (EAISI).</li>
+                </ul>
+            </div>
+
+			<div class="row logos justify-content-center">
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="https://i0.wp.com/mobile-manipulation.net/wp-content/uploads/2023/03/image.png?resize=150%2C150&ssl=1" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Seoul_national_university_emblem.svg/800px-Seoul_national_university_emblem.svg.png" alt=""></div>
+				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="https://icai.ai/wp-content/uploads/2020/06/EAISI-TUe-logo-purple-rgb.jpg" alt=""></div>
+			</div><!--//row-->
+            </div>
+		</div><!--//container-->
+	</section><!--//sponsors-section-->
+
+	<section id="organisers-section" class="speakers-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5">Organisers</h3>
+			<div class="row">
+				<div class="col-6 col-lg-4 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/organisers/omur.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Omur Arslan</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Assistant Professor, Eindhoven University of Technology (TU/e)</div>
+								<div class="meta"><i class="fa-solid fa-envelope"></i> o.arslan@tue.nl</div>
+							</div><!--//card-text-->
+							<a href="https://omurarslan.github.io" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-4 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/organisers/nikolay.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Nikolay Atanasov</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Assistant Professor, University of California San Diego</div>
+								<div class="meta"><i class="fa-solid fa-envelope"></i> natanasov@ucsd.edu</div>
+							</div><!--//card-text-->
+							<a href="https://natanaso.github.io" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-4 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/organisers/mehmet.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Mehmet Dogar</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Associate Professor, University of Leeds</div>
+								<div class="meta"><i class="fa-solid fa-envelope"></i> m.r.dogar@leeds.ac.uk</div>
+							</div><!--//card-text-->
+							<a href="https://eps.leeds.ac.uk/computing/staff/743/dr-mehmet-dogar" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-4 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/organisers/kim.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">H. Jin Kim</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Professor, Seoul National University</div>
+								<div class="meta"><i class="fa-solid fa-envelope"></i> ijinkim@snu.ac.kr</div>
+							</div><!--//card-text-->
+							<a href="https://aerospace.snu.ac.kr/en/about/faculty?mode=view&profidx=9" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+
+				<div class="col-6 col-lg-4 mb-4">
+					<div class="card rounded-0">
+						<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img src="assets/images/organisers/rafael.png" class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Rafael Papallas</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Research Fellow, University of Leeds</div>
+								<div class="meta"><i class="fa-solid fa-envelope"></i> r.papallas@leeds.ac.uk</div>
+							</div><!--//card-text-->
+							<a href="https://rpapallas.com" target="_blank">Read more &rarr;</a>
+						</div><!--//card-->
+					</div><!--//card-->
+				</div><!--//col-->
+			</div><!--//row-->
+		</div><!--//container-->
+		
+	</section><!--//speakers-section-->
+
+	<footer class="footer py-5 theme-bg-primary">
+		<div class="container text-center">
+			
+			<ul class="social-list list-inline mb-4"> 
+				<li class="list-inline-item me-3"><a href="#"><i class="fas fa-envelope"></i></a></li>
+				<li class="list-inline-item me-3"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+				<li class="list-inline-item me-3"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
+				<li class="list-inline-item me-0"><a href="#"><i class="fab fa-youtube fa-fw"></i></a></li>
+			</ul><!--//social-list-->
+			
+			
+			<ul class="footer-links list-inline mx-auto mb-4">
+				<li class="list-inline-item"><a href="#">Code of Conduct</a></li>
+				<li class="list-inline-item">|</li>
+				<li class="list-inline-item"><a href="#">Terms</a></li>
+				<li class="list-inline-item">|</li>
+				<li class="list-inline-item me-0"><a href="#">Privacy</a></li>
+			</ul><!--//footer-link-->
+			
+			 <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+			<small class="copyright">Designed with <i class="fas fa-heart" style="color: #EC645E;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+			
+		</div><!--//container-->	    
+	</footer>
+
+	<!-- Modal Speaker -->
+	<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-1" tabindex="-1" role="dialog" aria-labelledby="speaker-1-ModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 id="speaker-1-ModalLabel" class="modal-title sr-only"
+>Speaker Name</h4>
+				</div>
+				<div class="modal-body p-0">
+					<div class="theme-bg-light p-5">
+						<div class="row">
+							<div class="col-12 col-md-auto text-center">
+							    <img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto" src="assets/images/speakers/speaker-1.jpg" alt="" />
+							</div>
+							
+							<div class="col text-center text-md-start mx-auto">
+								<h2 class="name mb-2">Speaker Name</h2>
+								<div class="meta">Job Title Or Position</div>
+								<div class="meta mb-2">Company Or Organization</div>
+								<ul class="social-list list-inline mb-0">								
+									<li class="list-inline-item"><a  href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+									<li class="list-inline-item"><a  href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+									<li class="list-inline-item"><a  href="#"><i class="fab fa-github fa-fw"></i></a></li>
+								</ul><!--//social-list--> 
+							</div><!--//col-->
+						</div><!--//row-->
+					</div>
+					<div class="desc p-4 p-lg-5">
+						<p>You can put speaker's bio or talk related info here. Duis a mi quis metus porttitor eleifend. Pellentesque finibus ultrices imperdiet. Maecenas auctor tortor quis risus tincidunt, mattis mattis leo placerat. Fusce metus augue, sagittis eget enim vel, venenatis auctor est. In interdum felis massa, ac porta nunc pretium non. In fringilla orci vitae imperdiet malesuada. Vestibulum feugiat lobortis est, in sagittis nisi molestie vel. Mauris ultrices vitae lectus eu feugiat. Fusce semper, nisi at placerat mollis, augue elit pretium enim, eu pellentesque justo purus et lectus. </p>
+						<p class="mb-0">Donec neque magna, molestie vel varius ut, pretium a urna. Pellentesque placerat nunc eu condimentum pellentesque. Vivamus dictum nisl leo, id fermentum lectus porttitor et. Pellentesque tristique erat libero, condimentum porttitor nisl pharetra et.</p>
+					</div>
+				</div><!--//modal-body-->
+			</div><!--//modal-content-->
+		</div><!--//modal-dialog-->
+	</div><!--//modal-->
+	
+	<!-- Javascript -->          
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+	<script src="assets/plugins/smoothscroll.min.js"></script>
+	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+	<script src="assets/js/main.js"></script>  
+
+</body>
+</html> 
+
