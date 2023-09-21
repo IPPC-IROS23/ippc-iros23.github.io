@@ -313,7 +313,8 @@
 						<div class="content">
                             <h3 class="title mb-3">Poster Session 1</h3>
                             <!--<div class="desc">5-8 Selected Poster Presentations on Robot Perception for Navigation and Manipulation</td></div>-->
-                            <div class="desc">
+                            <button id="toggleButton1" class="btn btn-primary">Hide/Show Papers (downloadable PDFs)</button>
+                            <div id="toggleDiv1" class="d-none desc mt-3">
                                 <ol>
                                     <li><a target="_blank" href="/papers/gupta.pdf">"LIVE: Lidar Informed Visual Search for Multiple Objects with Multiple Robots" by Ryan Gupta, Minkyu Kim, Juliana Rodriguez, Kyle Morgenstein, and Luis Sentis</a></li>
                                     <li><a target="_blank" href="/papers/petracek.pdf">"Cooperative UAV Autonomy of Dronument: New Era in Cultural Heritage Preservation" by Pavel Petracek, Vit Kratky, Matej Petrlik, and Martin Saska</a></li>
@@ -430,7 +431,8 @@
 						<div class="content">
 							<h3 class="title mb-3">Poster Session 2</h3>
                             <!--<div class="desc">5-8 selected poster presentations on Perception-Aware Robot Navigation and Manipulation</td></div>-->
-                            <div class="desc">
+                            <button id="toggleButton2" class="btn btn-primary">Hide/Show Papers (downloadable PDFs)</button>
+                            <div id="toggleDiv2" class="d-none desc mt-3">
                             <ol>
                                 <li><a target="_blank" href="/papers/xing.pdf">"Autonomous Power Line Inspection with Drones via Perception-Aware MPC" by Jiaxu Xing, Giovanni Cioffi, Javier Hidalgo-Carrió, and Davide Scaramuzza</a></li>
                                 <li><a target="_blank" href="/papers/wu.pdf">"iPLAN: Intent-Aware Planning in Heterogeneous Traffic via Distributed Multi-Agent Reinforcement Learning" by Xiyang Wu, Rohan Chandra, Tianrui Guan, Amrit Singh Bedi, and Dinesh Manocha</a></li>
@@ -776,6 +778,31 @@
 	<script src="assets/plugins/smoothscroll.min.js"></script>
 	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
 	<script src="assets/js/main.js"></script> 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggleButton = document.getElementById("toggleButton1");
+            const toggleDiv = document.getElementById("toggleDiv1");
+
+            toggleButton.addEventListener("click", function () {
+                if (toggleDiv.classList.contains("d-none")) {
+                    toggleDiv.classList.remove("d-none");
+                } else {
+                    toggleDiv.classList.add("d-none");
+                }
+            });
+
+            const toggleButton2 = document.getElementById("toggleButton2");
+            const toggleDiv2 = document.getElementById("toggleDiv2");
+
+            toggleButton2.addEventListener("click", function () {
+                if (toggleDiv2.classList.contains("d-none")) {
+                    toggleDiv2.classList.remove("d-none");
+                } else {
+                    toggleDiv2.classList.add("d-none");
+                }
+            });
+        });
+    </script>
 
 </body>
 </html> 
